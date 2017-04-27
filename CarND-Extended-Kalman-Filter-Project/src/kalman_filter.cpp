@@ -72,6 +72,18 @@ void KalmanFilter::UpdateEKF(const VectorXd &z)
   
   // prediction error
   VectorXd y = z - hx;
+
+  /*REQUIRED
+	You need to normalize the difference angle y(1) in order to meet the required RMSE values.*/
+  //suppose to check that phi is -pi..pi
+  if (y(1) < -M_PI)
+  {
+	  y(1) += 2 * M_PI;
+  }
+  else if (y(1) > M_PI)
+  {
+	  y(1) -= 2 * M_PI;
+  }
   
   // perform rest of update
   UpdateOps(y);

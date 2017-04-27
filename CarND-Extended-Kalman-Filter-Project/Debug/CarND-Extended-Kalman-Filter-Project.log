@@ -1,16 +1,8 @@
-﻿  tools.cpp
-c:\users\mario.capin\documents\visual studio 2013\projects\carnd\carnd-extended-kalman-filter-project\carnd-extended-kalman-filter-project\src\tools.cpp(61): warning C4244: 'Initialisierung': Konvertierung von 'const double' in 'float', möglicher Datenverlust
-c:\users\mario.capin\documents\visual studio 2013\projects\carnd\carnd-extended-kalman-filter-project\carnd-extended-kalman-filter-project\src\tools.cpp(62): warning C4244: 'Initialisierung': Konvertierung von 'const double' in 'float', möglicher Datenverlust
-c:\users\mario.capin\documents\visual studio 2013\projects\carnd\carnd-extended-kalman-filter-project\carnd-extended-kalman-filter-project\src\tools.cpp(63): warning C4244: 'Initialisierung': Konvertierung von 'const double' in 'float', möglicher Datenverlust
-c:\users\mario.capin\documents\visual studio 2013\projects\carnd\carnd-extended-kalman-filter-project\carnd-extended-kalman-filter-project\src\tools.cpp(64): warning C4244: 'Initialisierung': Konvertierung von 'const double' in 'float', möglicher Datenverlust
-  main.cpp
-c:\users\mario.capin\documents\visual studio 2013\projects\carnd\carnd-extended-kalman-filter-project\carnd-extended-kalman-filter-project\src\main.cpp(172): warning C4244: 'Initialisierung': Konvertierung von 'double' in 'float', möglicher Datenverlust
-c:\users\mario.capin\documents\visual studio 2013\projects\carnd\carnd-extended-kalman-filter-project\carnd-extended-kalman-filter-project\src\main.cpp(173): warning C4244: 'Initialisierung': Konvertierung von 'double' in 'float', möglicher Datenverlust
-  kalman_filter.cpp
+﻿  kalman_filter.cpp
 c:\users\mario.capin\documents\visual studio 2013\projects\carnd\carnd-extended-kalman-filter-project\carnd-extended-kalman-filter-project\src\kalman_filter.cpp(55): warning C4244: 'Initialisierung': Konvertierung von 'double' in 'float', möglicher Datenverlust
 c:\users\mario.capin\documents\visual studio 2013\projects\carnd\carnd-extended-kalman-filter-project\carnd-extended-kalman-filter-project\src\kalman_filter.cpp(60): warning C4244: '=': Konvertierung von 'double' in 'float', möglicher Datenverlust
 c:\users\mario.capin\documents\visual studio 2013\projects\carnd\carnd-extended-kalman-filter-project\carnd-extended-kalman-filter-project\src\kalman_filter.cpp(67): warning C4244: '=': Konvertierung von 'double' in 'float', möglicher Datenverlust
   FusionEKF.cpp
-c:\users\mario.capin\documents\visual studio 2013\projects\carnd\carnd-extended-kalman-filter-project\carnd-extended-kalman-filter-project\src\fusionekf.cpp(138): warning C4244: 'Initialisierung': Konvertierung von 'double' in 'float', möglicher Datenverlust
+c:\users\mario.capin\documents\visual studio 2013\projects\carnd\carnd-extended-kalman-filter-project\carnd-extended-kalman-filter-project\src\fusionekf.cpp(138): warning C4244: 'Initialisierung': Konvertierung von 'double' in 'const float', möglicher Datenverlust
   Code wird generiert...
   CarND-Extended-Kalman-Filter-Project.vcxproj -> C:\Users\mario.capin\Documents\Visual Studio 2013\Projects\CarND\CarND-Extended-Kalman-Filter-Project\Debug\CarND-Extended-Kalman-Filter-Project.exe
